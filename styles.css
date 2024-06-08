@@ -1,0 +1,272 @@
+*{
+	padding:0;
+	margin:0;
+	font-family:'Josefin Sans',sans-serif;
+	box-sizing:border-box;
+}
+.hero{
+	position:relative;
+	height:100vh;
+	width:100%;
+	background:black;
+
+}	
+
+.logo{
+	color:white;
+}
+
+nav{
+	display:flex;
+	width:84%;
+	margin:auto;
+	padding:20px 0;
+	align-items: center;
+	justify-content:space-between;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style:none;
+	margin:10px 20px;
+}
+
+nav ul li a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+nav ul li a:hover{
+	color:red;
+}
+
+.detail{
+	margin-left:8%;
+	margin-top:15%;
+}
+
+.detail h1{
+	font-size:50px;
+	color:white;
+	margin-bottom:20px;
+}
+
+span{
+	color:orange;
+}
+
+.detail p{
+	color:white;
+	line-height:22px;
+	margin-bottom:20px;
+}
+
+.images{
+	width:45%;
+	height:80%;
+	position:absolute;
+	bottom:0;
+	right:100px;
+}
+
+.images img{
+	height:100%;
+	position:absolute;
+	left:50%;
+	bottom:0;
+	transform:translateX(-50%);
+	transition:bottom 1s, left 1s;
+}
+
+
+.images:hover .boy{
+	left:45%;
+}
+
+.socials a{
+	display: inline-block;
+	font-size:24px;
+	color: orange;
+	transition:all .6s ease;
+	margin-right:5px;
+}
+
+.socials a:hover{
+	transform: rotate3d(0,0,1,360deg);
+	color:red;
+}
+
+.socials a:first-child{
+	margin-left:8%;
+}
+
+#aboutme{
+	padding:80px 0;
+	color: #ababab;
+}
+
+.row{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+
+.about-col-1{
+	flex-basis:35%;
+}
+.about-col-1 img{
+	width:100%;
+	border-radius:15px;
+	margin-left: 100px;
+	
+}
+
+.about-col-2{
+	flex-basis:50%;
+}
+
+.sub-title{
+	font-size:60px;
+	font-weight:600;
+	color:#fff;
+	margin-bottom:30px;
+}
+
+.about-col-1:hover .schoolMe{
+	right:45%;
+}
+
+.about-col-2  span{
+	font-size:30px;
+	color:black;
+	background-color:orange
+	
+}
+.about-col-2 p{
+	font-size:26px;
+	color: white;
+}
+
+#myskills{
+	padding:80px 0;
+	color: #ababab;
+	
+}
+
+.skillheading{
+	font-size:60px;
+	font-weight:600;
+	color:#fff;
+	margin-bottom:30px;
+	margin-left:100px;
+}
+
+#myskills h2{
+	background-color: rgba(128, 128, 128, 0.5); 
+	padding: 20px; 
+	margin: 20px; 
+	font-size:30px;
+}
+
+.skill-row-3 ul li{
+	margin-left:75px;
+	font-size:20px;
+}
+.skill-row-4 ul li{
+	margin-left:75px;
+	font-size:20px;
+}
+
+.skill-row-5 a{
+	display: inline-block;
+	font-size:100px;
+	color: orange;
+	transition:all .6s ease;
+	margin-right:5px;
+	margin-left: 100px;
+}
+.skill-row-5 a:hover{
+	transform: rotate3d(0,0,1,360deg);
+	color:red;
+}
+
+#education{
+	padding:80px 0;
+	color: #ababab;
+	
+}
+
+.eduheading{
+	font-size:60px;
+	font-weight:600;
+	color:#fff;
+	margin-bottom:30px;
+	margin-left:100px;
+}
+
+.group p{
+	font-size:30px;
+	color:white;
+	margin-left:100px;
+}
+.group h2{
+	color:orange;
+}
+
+.al-result {
+  list-style-type: none; 
+  padding: 0; 
+}
+
+.al-result li {
+  margin: 5px 0;
+  font-size:30px;
+	color:white;
+	margin-left:100px;
+}
+.al-result li span{
+	color:#00ffff;
+	
+}
+.ditec-result li {
+  margin: 5px 0;
+  font-size:30px;
+	color:white;
+	margin-left:100px;
+}
+.ditec-result li span{
+	color:#00ffff;
+	
+}
+table {
+  width: 50%;
+  border-collapse: collapse; 
+
+th td {
+  border: 1px ; 
+  padding: 8px; 
+}
+
+th { 
+  font-size:50px;
+}
+
+tr td{
+	font-size:30px;
+	padding:8px;
+	border:1px;
+}
+
+footer {
+  background-color: #f0f0f0; 
+  padding: 20px; 
+  text-align: center; 
+}
+
+.footer .copyright {
+  font-size: 14px; 
+  color: #888; 
+}
+
+
